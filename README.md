@@ -16,11 +16,21 @@ Un lenguaje de marcas organiza información mediante una sintaxis basada en marc
 
 1. Instalamos [VS Code](https://code.visualstudio.com/)
 2. Intalamos plugins
+    - [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+    - [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
+    - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+    - [XML - Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
+3. Instalamos git
+```bash
+sudo apt instal git
 
-|Nombre|Uso|
-|---|---|
-|Color Highlight||
-|HTML CSS Support||
-|Live Preview||
-|Markdown All in One||
-|XML Tools||
+```
+
+## Descripción de plugins
+
+|Nombre|Uso|Imagen|
+|------|---|------|
+|HTML CSS Support|Facilitar sintaxis y autocopletado de CSS|![error404](imgj/HTML.png)|
+|Live Preview|Visualizar los HTML formateado|![error404](imgj/LivePreview.png)|
+|Markdown All in One|Visualizar los Markdown formateados|![error404](imgj/Markdown.png)|
+|XML Red hat|Facilitar sintaxis y autocopletado de XML|![error404](imgj/XXML.png)|
